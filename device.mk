@@ -33,6 +33,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 PRODUCT_COPY_FILES += \
+    device/acer/t30-common/prebuilt/ramdisk/init.picasso_m.rc:root/init.picasso_m.rc \
+    device/acer/t30-common/prebuilt/ramdisk/fstab.picasso_mf:root/fstab.picasso_mf \
+    device/acer/t30-common/prebuilt/ramdisk/init.picasso_mf.usb.rc:root/init.picasso_mf.usb.rc \
+
+PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \

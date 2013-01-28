@@ -1,0 +1,4 @@
+ro.opengles.version=131072
+persist.tegra.nvmmlite=1
+nvidia.hwc.mirror_mode=crop
+tf.enable=y
